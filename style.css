@@ -27,14 +27,14 @@ body{
 .images img{
     height: 100%;
     position: absolute;
-    left: 73%;
+    left: 50%;
     bottom: 0;
     transform: translateX(-50%);
     transition: bottom 1s, left 1s;
 }
-.images:hover .boy{
+/* .images:hover .boy{
     left: 55%;
-}
+} */
 .container{
     padding: 10px 10%;
 }
@@ -360,14 +360,22 @@ nav .bi{
         /* background-image: url(./images/phone-background.png); */
     }
     .header-text{
-        margin-top: 70%;
-        font-size: 15px;
+        margin-top: 55%;
+        font-size: 13px;
+    }
+    .images img{
+        height: 100%;
+        position: absolute;
+        left: 80%;
+        bottom: 0;
+        transform: translateX(-50%);
+        transition: bottom 1s, left 1s;
     }
     .header-text span{       
         font-size: 22px;
     }
     .header-text h1{
-        font-size: 20px;
+        font-size: 22px;
     }
     nav .bi{
         display: block;
